@@ -1,0 +1,175 @@
+.project-management {
+max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: black;
+}
+
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.project-header {
+  padding: 15px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-management h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.project-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.project-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-count {
+  color: #666;
+  font-size: 14px;
+}
+
+.task-card {
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.task-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.task-card p {
+  margin: 0 0 10px 0;
+  color: #555;
+}
+
+.task-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-badge.в-работе {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.завершена {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-badge.новая {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.type-badge {
+  padding: 3px 8px;
+  border-radius: 4px;
+  background-color: #e2e3e5;
+  color: #383d41;
+  font-size: 12px;
+}
+
+.modified-date {
+  margin-left: auto;
+}
+
+.add-task-form, .add-project-form {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.add-task-form input, .add-project-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-task-form button, .add-project-form button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task-form button:hover, .add-project-form button:hover {
+  background-color: #0069d9;
+}
+
+.add-project-form {
+  margin-top: 30px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+}
+
+/* Существующие стили из предыдущего примера */
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-info {
+  color: #666;
+  font-size: 14px;
+}
+
+.error {
+  border-color: #ff4444 !important;
+}
+
+.error-text {
+  color: #ff4444;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}

@@ -1,2 +1,2 @@
-# NewRegistr2
-sdsdsddssdsd
+# New-Registr
+дополненное задание по регистрации
